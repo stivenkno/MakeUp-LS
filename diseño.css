@@ -900,23 +900,13 @@ svg {
   padding: 20px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Segoe UI", sans-serif;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: white;
   padding: 1rem 2rem;
-  position: relative;
+  position: fixed;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
